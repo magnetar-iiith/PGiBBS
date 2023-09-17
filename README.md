@@ -16,7 +16,11 @@ git clone https://github.com/magnetar-iiith/PGiBBS.git
 cp PGiBBS/pgibbs.py pyDcop/pydcop/algorithms/
 cd pyDcop
 pip install -e .[test]
-pydcop solve --algo pibbs --algo_param number_of_iterations:50 <your-dcop-instance>
+```
+
+To run pgibbs, use the following command 
+```
+pydcop solve --algo pgibbs --algo_param number_of_iterations:50 <your-dcop-instance>
 ```
 
 
