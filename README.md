@@ -18,13 +18,15 @@ cd pyDcop
 pip install -e .[test]
 ```
 
-To run pgibbs, use the following command 
+To run P-Gibbs, use the following command 
 ```
 pydcop solve --algo pgibbs --algo_param number_of_iterations:50 <your-dcop-instance>
 ```
 
 
 ## Citation
+
+If you find our work useful, please cite the paper as:
 
 ```
 @inproceedings{DTFG21,
