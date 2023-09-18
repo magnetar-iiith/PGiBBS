@@ -27,6 +27,10 @@ To run P-Gibbs, use the following command
 pydcop solve --algo pgibbs --algo_param number_of_iterations:50 <your-dcop-instance>
 ```
 
+For some of our experiments with graph-coloring, we use a domain size that is more than 8, which is part of pyDCOP's implementation. For this, we update `graphcoloring.py` available at `pyDcop/pydcop/commands/generators`. For the change to take effect, run `pip install -e .[test]` from the pyDCOP home directory.
+
+
+
 
 ## Citation
 
