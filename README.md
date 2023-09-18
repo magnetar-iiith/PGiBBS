@@ -10,7 +10,7 @@ We introduce P-Gibbs, the first differentially private DCOP algorithm that prese
 ![Alt text](P-Gibbs-Sampling.png?raw=true "P-Gibbs Sampling Procedure")
 
 # Code Usage
-We extend the pyDCOP solver to create P-Gibbs. To try the algorithm, run the following commands:
+We extend the [pyDCOP](https://github.com/Orange-OpenSource/pyDcop) solver to create P-Gibbs. To try the algorithm, run the following commands:
 
 ```
 python3 -m venv ~/pydcop_env
